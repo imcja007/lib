@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login form</title>
+
+  </head>
+  <body>
+    <div class="login-box">
+      <!-- <img src="./avatar.png" alt="avatar" class="avatar" /> -->
+      <form action="#">
+        <!-- <div class="user-box">
+          <input type="text" id="bookName" required="" />
+          <label> Book-Id</label>
+        </div> -->
+        <div class="user-box">
+          <input type="text" id="title" required="" />
+          <label> Title </label>
+        </div>
+        <div class="user-box">
+          <input type="text" id="category" required="" />
+          <label> Category</label>
+        </div>
+        <div class="user-box">
+          <input type="text" id="publisher" required="" />
+          <label> Publisher</label>
+        </div>
+
+        <div class="user-box">
+          <input type="number" id="price" required="" />
+          <label> Price</label>
+        </div>
+        <div class="user-box">
+          <input type="text" id="doi" required="" />
+          <label> Date Of Issue </label>
+        </div>
+        <div class="user-box">
+          <input type="number" id="authID" required="" />
+          <label> Author-Id </label>
+        </div>
+        <button (click)="addBook()" routerLink="/books">
+          <span> </span>
+          <span> </span>
+          <span> </span>
+          <span> </span>
+          ADD BOOK
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

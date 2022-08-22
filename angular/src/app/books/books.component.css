@@ -1,0 +1,25 @@
+table{ width: 100%; }
+mat-form-field{
+  color: black;
+}
+mat-label{
+  border: 2px;
+  border-color: black;
+}
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+#btn{
+ margin-left: 1200px;
+ padding: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+h1{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 550;
+  margin-bottom: 0px;
+}
